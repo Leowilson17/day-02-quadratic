@@ -1,0 +1,10 @@
+let a = parseInt(prompt());
+let b = parseInt(prompt());
+let c = parseInt(prompt());
+console.log("Inputs are",a , b, c);
+d = (b*b) - 4 * a * c;
+x =  Math.sqrt(d);
+f1 = (-b + x) / ( 2 * a);
+f2 = (-b - x) / ( 2 * a);
+console.log("F1: ", f1);
+console.log("F2: ", f2); 
